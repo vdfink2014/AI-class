@@ -1,8 +1,10 @@
 from AI import AI
 
-AI.token = "token"
-AI.model_SD = "model"AI.start_ai()
+ai = AI()
+ai.token = "token"
+ai.model_SD = "model"
+ai.start_ai()
 
-input = input()
+input = input() # A cat
 
-AI.SD(input)
+ai.SD(input) # It saves at your system
