@@ -16,4 +16,18 @@ AI.chatgpt() - for text generation. We are sorry, but know it knows only one mes
 
 AI.SD() - for image generation. To use it, again, type the text in parentheses.
 
+Example:
+
+
+from AI import AI
+
+AI.token = "token"
+AI.model_C = "HuggingFaceH4/starchat2-15b-v0.1"
+AI.start_ai()
+
+output = AI.chatgpt("What is the capital of France?")
+
+print(output)
+
+
 That's all for this project!
