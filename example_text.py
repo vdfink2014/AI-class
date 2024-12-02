@@ -1,5 +1,6 @@
-from main import AI as ai
+from main import AI
 
+ai = AI()
 ai.token = "token"
 ai.model_C = "model"
 ai.start_ai()
