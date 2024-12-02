@@ -14,7 +14,7 @@ Before you start, you need to start the AI's by typing AI.start_ai()
 
 AI.chatgpt() - for text generation. We are sorry, but know it knows only one message that you typed. To use it, you need to type the text in parentheses
 
-AI.SD() - for image generation. To use it, again, type the text in parentheses.
+AI.SD() - for image generation. To use it, again, type the text in parentheses and it saves into your system as the text without whitespaces.
 
 Example:
 
