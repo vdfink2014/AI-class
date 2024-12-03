@@ -10,7 +10,7 @@ AI.model_C - the model for text generation
 
 AI.model_SD - the model for image generation
 
-Before you start, you need to start the AI's by typing AI.start_ai()
+Before you start, you need to start the AI's by typing AI.start_ai(). Every time you want another model instead of what you typed, you can change the model and type the same command. It works like restart ai.
 
 AI.chatgpt() - for text generation. We are sorry, but it knows only one message that you typed. To use it, you need to type the text in parentheses
 
@@ -20,7 +20,7 @@ Example:
 ''' 
 python
 
-from AI import AI
+from main.py import AI
 
 AI.token = "token"
 AI.model_C = "HuggingFaceH4/starchat2-15b-v0.1"
