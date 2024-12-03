@@ -17,7 +17,8 @@ AI.chatgpt() - for text generation. We are sorry, but it knows only one message 
 AI.SD() - for image generation. To use it, again, type the text in parentheses and it saves into your system as the text without whitespaces.
 
 Example:
-''' python
+''' 
+python
 
 from AI import AI
 
