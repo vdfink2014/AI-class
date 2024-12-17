@@ -28,4 +28,4 @@ class AI():
                 image = client2.text_to_image(promt)
             except:
                 print("You need to define the model")
-            image.save("C:/Users/vdfink/PycharmProjects/pythonProject1" + promt.replace(" ", "") + ".png")
+            image.save("promt.replace(" ", "") + ".png")
