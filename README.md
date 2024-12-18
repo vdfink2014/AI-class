@@ -1,4 +1,4 @@
-# AI-class
+# ai-class-python
 This class for python lets you do anything with AI. It uses Hugging Face to explore AI
 # Documentation
 To use this Class, you need to install huggingface_hub and deep_translator by typing "pip install huggingface_hub deep_translator" in the powershell.
