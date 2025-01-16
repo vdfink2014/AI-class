@@ -1,7 +1,7 @@
 # ai-class-python
 This class for python lets you do anything with AI. It uses Hugging Face to explore AI
 # Documentation
-To use this Class, you need to install huggingface_hub and deep_translator by typing "pip install huggingface_hub deep_translator" in the powershell.
+To use this Class, you need to install huggingface_hub by typing "pip install huggingface_hub deep_translator" in the powershell.
 Insert the class by typing "from main import AI". If you want, you can change the file's name. But not, you need to type "from {your_file_name} import AI"
 After that, you will need to set AI.token, AI.model_C, AI.model_SD.
 
@@ -31,5 +31,12 @@ output = AI.chatgpt("What is the capital of France?")
 
 print(output)
 '''
+Quick answers:
+Error 0:
+You didn't install hugging face! Go ahead and type pip install huggingface_hub in the powershell!
+Error 1:
+Make sure if you are using the model from this site: https://huggingface.co/models?inference=warm&pipeline_tag=text-generation&sort=trending. Else, try to change the model.
+Error 2:
+Make sure if you are using the model from this site: https://huggingface.co/models?inference=warm&pipeline_tag=text-to-image&sort=trending. Else, try to change the model.
 Huge thanks to hugging face in this project. Please, visit their sites: https://huggingface.co
 That's all for this project!
