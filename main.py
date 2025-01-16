@@ -1,6 +1,8 @@
-from huggingface_hub import InferenceClient
-from deep_translator import GoogleTranslator
-
+try:
+    from huggingface_hub import InferenceClient
+    from deep_translator import GoogleTranslator
+except:
+    print("Error 1")
 class AI():
         token = ""    
         model_C = ""    
@@ -19,7 +21,7 @@ class AI():
             try:
                 completion = client.chat.completions.create(model=self.model_C, messages=messages, max_tokens=5000)
             except:
-                return "You need to define the model"        
+                return "Error #01"     
             a = GoogleTranslator("auto", "ru").translate(text=completion.choices[0].message.content)
             return a
 
@@ -27,5 +29,5 @@ class AI():
             try:
                 image = client2.text_to_image(promt)
             except:
-                print("You need to define the model")
+                print("Error #02")
             image.save("promt.replace(" ", "") + ".png")
